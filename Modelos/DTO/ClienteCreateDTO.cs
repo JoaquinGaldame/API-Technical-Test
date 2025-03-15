@@ -6,10 +6,12 @@ namespace API_Technical_Test.Modelos.DTO
     {
         [Required]
         [MaxLength(30)]
-        public string? Nombre { get; set; }
-        public string? Detalle { get; set; }
+        public string? nombre { get; set; }
+        public string? dni { get; set; }
+        public string? domicilio { get; set; }
+        public string? provincia { get; set; }
         [Required]
-        public double Credito { get; set; }
-        public int Cuenta { get; set; }
+        public double credito { get; set; }
+        public int cuenta { get; set; }
     }
 }
